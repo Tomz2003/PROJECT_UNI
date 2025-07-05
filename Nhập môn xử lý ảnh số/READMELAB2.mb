@@ -1,4 +1,4 @@
-# Công nghệ sử dụng
+# Tiêu đề Công nghệ sử dụng
 Framework và thư viện chính được sử dụng trong code này bao gồm:
 1.	Pillow (PIL): Thư viện xử lý ảnh cơ bản để đọc, ghi và thao tác với ảnh
 2.	NumPy: Thư viện tính toán số học mạnh mẽ cho các phép toán trên mảng đa chiều
