@@ -1,4 +1,4 @@
-#Công nghệ sử dụng
+# Công nghệ sử dụng
 Framework và thư viện chính được sử dụng trong code này bao gồm:
 1.	Pillow (PIL): Thư viện xử lý ảnh cơ bản để đọc, ghi và thao tác với ảnh
 2.	NumPy: Thư viện tính toán số học mạnh mẽ cho các phép toán trên mảng đa chiều
@@ -25,34 +25,34 @@ o	Hiển thị phổ tần số sau khi logarit hóa để dễ quan sát
 o	Các thành phần tần số cao nằm ở trung tâm ảnh sau khi dịch chuyển
 2.	Butterworth Filter (Bộ lọc Butterworth)
 o	Lowpass Filter: Giữ lại thành phần tần số thấp (làm mờ ảnh)
-	Công thức: H = 1 / (1 + (D/D0)^(2n))
+	Công thức: H = 1 / (1 + (D/D0)^(2n))
 o	Highpass Filter: Giữ lại thành phần tần số cao (làm nổi bật biên)
-	Công thức: H = 1 / (1 + (D0/D)^(2n))
+	Công thức: H = 1 / (1 + (D0/D)^(2n))
 o	Trong đó:
-	D: Khoảng cách từ điểm ảnh đến trung tâm
-	D0: Tần số cắt
-	n: Bậc của bộ lọc
+	D: Khoảng cách từ điểm ảnh đến trung tâm
+	D0: Tần số cắt
+	n: Bậc của bộ lọc
 Câu 3: Biến đổi ngẫu nhiên (RGB swap + xử lý ảnh)
 1.	Random RGB Swap
 o	Đảo ngẫu nhiên thứ tự các kênh màu R, G, B
 o	Tạo hiệu ứng màu sắc khác lạ cho ảnh
 2.	Áp dụng biến đổi ngẫu nhiên
 o	Chọn ngẫu nhiên một trong các phương pháp:
-	Inverse: Đảo ngược ảnh
-	Gamma: Hiệu chỉnh gamma với giá trị ngẫu nhiên (0.3-2.0)
-	Log: Biến đổi logarit để nén dải động
-	Histogram Equalization: Cân bằng histogram để cải thiện độ tương phản
-	Contrast Stretching: Kéo giãn độ tương phản
+	Inverse: Đảo ngược ảnh
+	Gamma: Hiệu chỉnh gamma với giá trị ngẫu nhiên (0.3-2.0)
+	Log: Biến đổi logarit để nén dải động
+	Histogram Equalization: Cân bằng histogram để cải thiện độ tương phản
+	Contrast Stretching: Kéo giãn độ tương phản
 Câu 4: Biến đổi Fourier ngẫu nhiên
 1.	Random RGB Swap (tương tự câu 3)
 2.	Áp dụng biến đổi Fourier ngẫu nhiên
 o	Chọn ngẫu nhiên một trong các phương pháp:
-	FFT: Hiển thị phổ tần số
-	Lowpass Filter: Lọc thông thấp với tham số ngẫu nhiên
-	Highpass Filter: Lọc thông cao với tham số ngẫu nhiên
+	FFT: Hiển thị phổ tần số
+	Lowpass Filter: Lọc thông thấp với tham số ngẫu nhiên
+	Highpass Filter: Lọc thông cao với tham số ngẫu nhiên
 o	Sau khi lọc có thể áp dụng thêm:
-	Minimum Filter (với Lowpass): Làm mờ thêm
-	Maximum Filter (với Highpass): Tăng cường biên
+	Minimum Filter (với Lowpass): Làm mờ thêm
+	Maximum Filter (với Highpass): Tăng cường biên
 Tổng quan hoạt động
 Chương trình cung cấp hai menu chính:
 1.	Xử lý ảnh trong miền không gian (Bài tập 1 và 3)
