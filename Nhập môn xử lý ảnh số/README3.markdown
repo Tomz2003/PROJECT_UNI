@@ -1,7 +1,3 @@
-# Tài liệu Hướng dẫn (README) cho Mã Xử lý Ảnh
-
-## Giới thiệu
-Tài liệu này giải thích chi tiết cách hoạt động của mã Python được cung cấp, tập trung vào xử lý ảnh với các thư viện phổ biến. Mã được thiết kế để thực hiện các thao tác cơ bản và nâng cao trên ảnh, tương tự như cách tài liệu tiếng Việt trong hình ảnh được cấu trúc.
 
 ## Công nghệ sử dụng
 - **Framework**: Python với các thư viện:
