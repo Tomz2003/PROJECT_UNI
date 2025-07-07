@@ -1,7 +1,4 @@
-# Tài liệu Hướng dẫn (README) cho Mã Xử lý Ảnh Lab 4
 
-## Giới thiệu
-Tài liệu này giải thích chi tiết cách hoạt động của các mã Python trong file `lab4.py`, tập trung vào xử lý và phân vùng ảnh với các kỹ thuật khác nhau. Mã được thiết kế để thực hiện các thao tác như ngưỡng Otsu, Adaptive Thresholding, Binary Closing, và các biến đổi hình học/morphology, tương tự cách tài liệu tiếng Việt trong hình ảnh được cấu trúc.
 
 ## Công nghệ sử dụng
 - **Framework**: Python với các thư viện:
