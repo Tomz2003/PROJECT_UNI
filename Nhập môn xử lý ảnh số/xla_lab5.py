@@ -8,7 +8,7 @@ Original file is located at
 """
 
 !pip install opencv-python numpy matplotlib scikit-image
-
+2.1
 from PIL import Image
 import numpy as np
 import imageio.v2 as iio
@@ -52,7 +52,7 @@ for i in d:
         ax.add_patch(rect)
 
 plt.show()
-
+2.2
 from PIL import Image
 import numpy as np
 import imageio.v2 as iio
@@ -67,7 +67,7 @@ data = Image.open('geometric.png').convert('L')
 bmg = abs(data - nd.shift(data, (0, 1), order=0))
 plt.imshow(bmg)
 plt.show()
-
+2.3
 from PIL import Image
 import numpy as np
 import cv2
@@ -85,7 +85,7 @@ b = nd.sobel(data, axis=1)
 bmg = abs(a) + abs(b)
 plt.imshow(bmg)
 plt.show()
-
+2.4
 from PIL import Image
 import numpy as np
 import cv2
