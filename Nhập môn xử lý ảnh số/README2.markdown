@@ -1,7 +1,4 @@
-# README - XLA Lab 2 Image Processing Project
 
-## Giới thiệu
-Đây là một dự án Python thực hiện các kỹ thuật xử lý ảnh cơ bản và nâng cao, bao gồm biến đổi ảnh (đảo ngược, gamma), biến đổi Fourier (FFT, bộ lọc Butterworth), và các phép biến đổi ngẫu nhiên trên kênh màu và tần số. Dự án được chia thành các bài tập thực hành với giao diện tương tác.
 
 ## Công nghệ sử dụng
 - **Framework**: Mã sử dụng Python với các thư viện sau:
